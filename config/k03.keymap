@@ -31,6 +31,16 @@
             bindings = <&mo 3>;
             key-positions = <53 56>;
         };
+
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <53>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <56>;
+        };
     };
 
     keymap {
